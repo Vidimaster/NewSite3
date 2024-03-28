@@ -85,10 +85,7 @@
     font-style: normal;
 }
 
-.item-img {
-    width: 100%;
 
-}
 
 .item-big {
     width: 100%;
@@ -100,6 +97,8 @@
     padding-bottom: 3%;
     max-width: 1600px;
     margin: 0 auto;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .grid {
@@ -157,6 +156,13 @@
 }
 
 .content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.footer_block {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -238,6 +244,15 @@
     justify-content: center;
 }
 
+.delivery {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    background-color: #222224;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .button {
     text-decoration: none;
     padding: 1rem 2rem;
@@ -252,13 +267,19 @@
 
 .button:hover {
     color: white;
-    background-color: #F25822;
-    border: 1px solid darkorange;
+    background-color: #FF6A6A;
+    border: 1px solid #b84747;
 }
 
 .content-margin {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.item-img {
+    width: 100%;
+    position: relative;
+
 }
 
 .item-img:hover {
@@ -267,3 +288,255 @@
 
 }
 
+
+/* Style the button and place it in the middle of the container/image */
+.shop-cart .btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #0000;
+    color: white;
+
+    padding: 14px;
+    border: solid;
+    cursor: pointer;
+    border-radius: 1px;
+    border-width: 1px;
+    display: none;
+}
+
+.shop-cart:hover>.btn {
+    display: block;
+}
+
+.shop-cart:hover>.item-img {
+    filter: brightness(50%);
+    transition: all 0.3s;
+
+}
+
+
+.icon-text-centered {
+    text-align: center;
+    margin: 5%;
+
+}
+
+.fa-cart-shopping {
+    font-size: 14px;
+
+}
+
+.icon_content-header {
+    font-size: 20px;
+    color: #FBFBFB;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.item_content-text {
+    font-size: 14px;
+    color: #FBFBFB;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.subscribe {
+    background-image: url('img/photo subscribe.png');
+    height: 448px;
+
+}
+
+.center-elements {
+    align-items: center;
+}
+
+.flex_direct {
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.logos {
+    background-color: #222224;
+}
+
+.brand-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #FBFBFB;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.fa-brands {
+    background-color: white;
+    padding: 10px;
+
+}
+
+.fa-brands:hover {
+    background-color: #F16D7F;
+    color: white;
+    transition: all 0.3s;
+}
+
+.author-text {
+    text-align: center;
+    margin: 5%;
+    font-size: 20px;
+    width: 50%;
+
+}
+
+.container-subscribe-left {
+    display: flex;
+    padding-left: 4%;
+
+    justify-content: flex-start;
+}
+
+.container-subscribe-right {
+
+    padding-right: 21%;
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+.text-subscribe-header {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text-subscribe-subheader {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+button {
+    border: none;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input {
+    color: #222224;
+
+    background-color: #E1E1E1;
+}
+
+input:focus {
+    outline: 2px solid white;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+
+.wrapper {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    position: relative;
+
+}
+
+.wrapper input {
+
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.wrapper button {
+    background: #E1E1E1;
+    border-radius: 0 50px 50px 0;
+    height: 100%;
+    width: 30%;
+    background: #F16D7F;
+    position: absolute;
+    right: 0px;
+    padding: 7px;
+}
+
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 232px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding-bottom: 16px;
+
+    top: 137%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 53px;
+    text-decoration: none;
+    display: block;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.text-menu-subhader {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #F16D7F;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    margin-left: 33px;
+}
+
+.text-menu-header {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 33px;
+    margin-top: 33px;
+    ;
+}
+
+.text-menu {}
