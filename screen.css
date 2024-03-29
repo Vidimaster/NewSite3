@@ -78,6 +78,30 @@
         padding-right: 4%;
     }
 
+
+
+    .logos .container-left {
+        display: flex;
+        padding-left: 0;
+        gap: 25%;
+        justify-content: center;
+    }
+
+    .logos .container-right {
+        padding-left: 26%;
+        display: flex;
+        gap: 25%;
+        justify-content: flex-end;
+    }
+
+    .logos {
+        background-color: #222224;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
     .grid {
 
         display: block;
@@ -199,6 +223,10 @@
     .logos .container-right {
         grid-row: 1;
         margin-top: 43px;
+        padding: 0;
+        gap: 6%;
+        display: flex;
+        justify-content: center;
     }
 
     .brand-text {
