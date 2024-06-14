@@ -166,7 +166,11 @@
         background-image: url('img/menu_accesor.svg');
         background-size: cover;
         background-position: center;
-        height: 6vh;
+        min-height: 111px;
+    }
+
+    .item_menu_4>.center-card {
+        min-height: 111px;
     }
 
     .center {
@@ -183,7 +187,7 @@
         padding-top: 64px;
         padding-bottom: 140px;
         height: 693px;
-        background-size: 120vh;
+        background-size: cover;
         justify-content: none;
     }
 
@@ -237,7 +241,7 @@
 
     .subscribe {
         height: 550px;
-        background-size: 85vh;
+        background-size: cover;
     }
 
     .container-subscribe-right {

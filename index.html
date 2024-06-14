@@ -16,12 +16,14 @@
 </head>
 
 <body>
-    <div class="top color-pink">
+    <div class="top">
         <div class="navbar">
             <div class="container">
                 <div class="container-left">
-                    <img src="img/logo.svg" alt="logo" style="width: 44px;">
-                    <i class="fa fa-solid fa-magnifying-glass nav_icon-color"></i>
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="logo" style="width: 44px;"></a>
+                    <button class="dropbtn">
+                        <i class="fa fa-solid fa-magnifying-glass nav_icon-color"></i></button>
                 </div>
                 <div class="container-right">
                     <div class="dropdown">
@@ -54,7 +56,8 @@
                     </div>
 
                     <i class="fa fa-solid fa-user nav_icon-color"></i>
-                    <i class="fa fa-solid fa-cart-shopping nav_icon-color"></i>
+                    <i class="fa fa-solid fa-cart-shopping nav_icon-color"><button class="btn_shop"><span
+                                style="    font-family: Lato, sans-serif;">5</span></button></i>
                 </div>
             </div>
         </div>
@@ -71,7 +74,7 @@
         <div class="container grid">
             <div class="item_menu_1">
                 <div class="center-card">
-                    <img class="item-img" src="img/menu_women.svg" alt="" class="item_img">
+                    <img class="item-img" src="img/menu_women.svg" alt="">
                     <div class="text-centered">
                         <p>
                             30% OFF </p>
@@ -86,7 +89,7 @@
 
             <div class="item_menu_2">
                 <div class="center-card">
-                    <img class="item-img" src="img/menu_men.svg" alt="" class="item_img">
+                    <img class="item-img" src="img/menu_men.svg" alt="">
                     <div class="text-centered">
                         <p>
                             HOT DEAL </p>
@@ -100,7 +103,7 @@
             </div>
             <div class="item_menu_3">
                 <div class="center-card">
-                    <img class="item-img" src="img/menu_kids.svg" alt="" class="item_img">
+                    <img class="item-img" src="img/menu_kids.svg" alt="">
                     <div class="text-centered">
                         <p>
                             NEW ARRIVALS
@@ -113,7 +116,7 @@
             </div>
             <div class="item_menu_4 item-img">
                 <div class="center-card">
-                    <img class="item-img item-big" src="img/menu_accesor.svg" alt="" class="item_img">
+                    <img class="item-img item-big" src="img/menu_accesor.svg" alt="">
                     <div class="text-centered">
                         <p>
                             LUXIROUS & TRENDY
@@ -135,7 +138,7 @@
         </div>
         <div class="grid-feature container content-margin">
 
-            <div class="item_content1">
+            <!-- <div class="item_content1">
                 <div class="shop-cart">
 
                     <img src="img/feature_1.svg" alt="" class="item-img">
@@ -190,7 +193,7 @@
                     Australian arbiter
                     of cool Kym Ellery teams up with Moda Operandi.</p>
                 <p class="content-font-card-price">$52.00</p>
-            </div>
+            </div> -->
         </div>
         <br>
         <br>
@@ -250,7 +253,7 @@
                 <h2 class="text-subscribe-header"><b>SUBSCRIBE</b></h2>
                 <h3 class="text-subscribe-subheader" style="margin-bottom: 5%;"> FOR OUR NEWLETTER AND PROMOTION</h3>
                 <div class="wrapper">
-                    <input type="text" placeholder="Enter your email" />
+                    <input type="text" placeholder="Enter your email">
                     <button>
                         <span style="color: white">Subscribe</span>
                     </button>
@@ -262,13 +265,24 @@
                 <p class="brand-text">© 2022 Brand All Rights Reserved.</p>
             </div>
             <div class="container-right center-elements">
-                <i class="fa fa-brands fa-facebook-f"></i>
-                <i class="fa fa-brands fa-instagram"></i>
-                <i class="fa fa-brands fa-pinterest-p"></i>
-                <i class="fa fa-brands fa-twitter"></i>
+                <div class="element">
+                    <i class="fa fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="element">
+                    <i class="fa fa-brands fa-instagram"></i>
+                </div>
+                <div class="element">
+                    <i class="fa fa-brands fa-pinterest-p"></i>
+                </div>
+                <div class="element">
+                    <i class="fa fa-brands fa-twitter"></i>
+                </div>
             </div>
         </div>
     </div>
+    <script src="app.js">
+
+    </script>
 </body>
 
 </html>
